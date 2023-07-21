@@ -79,7 +79,7 @@ def main():
         record_names = get_record_names(database_path)
         
         # Read the noise record
-        noise_record = wfdb.rdrecord('/home/matteo/Documents/projects/work/dataset/mit-bih-noise-stress-test-database-1.0.0/em')
+        noise_record = wfdb.rdrecord('./mit-bih-noise-stress-test-database-1.0.0/em')
         noise_signal = noise_record.p_signal
 
         # Process each record in the database
