@@ -59,7 +59,7 @@ You can modify the input folder, the noise file, and other parameters directly i
 
 ## [snr_method.py](snr_method.py)
 
-The second script (`record_processor.py`) is used to add noise to ECG signals to achieve a desired Signal-to-Noise Ratio (SNR). It then writes the result (the noisy ECG signals and their corresponding annotations) to a JSON file.
+The second script (`snr_method.py`) is used to add noise to ECG signals to achieve a desired Signal-to-Noise Ratio (SNR). It then writes the result (the noisy ECG signals and their corresponding annotations) to a JSON file.
 
 ### Get Record Names Function
 
@@ -80,7 +80,7 @@ The `main` function specifies the desired SNRs, sets the database and output pat
 To run the script, use the following command:
 
 ```bash
-python record_processor.py
+python snr_method.py
 ```
 
 You can modify the desired SNR, database path, and other parameters directly in the script.
