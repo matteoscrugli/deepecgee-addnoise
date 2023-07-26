@@ -6,9 +6,9 @@ This repository contains two Python scripts that are designed for processing Ele
 ## Table of Contents
 
 - [Requirements](#requirements)
-- [Script 1: File Processor](#script-1-file-processor)
+- [nst_method.py](#script-1-file-processor)
   - [Process Files Function](#process-files-function)
-- [Script 2: Record Processor](#script-2-record-processor)
+- [snr_method.py](#script-2-record-processor)
   - [Get Record Names Function](#get-record-names-function)
   - [Add Noise Function](#add-noise-function)
   - [Process Record Function](#process-record-function)
